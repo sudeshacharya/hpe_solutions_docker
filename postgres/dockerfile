@@ -1,0 +1,3 @@
+FROM library/postgres:11.5
+COPY scripts/init-user-db.sql /docker-entrypoint-initdb.d/
+
